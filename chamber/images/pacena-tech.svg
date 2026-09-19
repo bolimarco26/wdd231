@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+    <rect width="400" height="200" rx="20" fill="#1f4e5f"/>
+    <circle cx="100" cy="100" r="45" fill="white"/>
+    <path d="M75 100 L95 120 L130 80" fill="none" stroke="#1f4e5f" stroke-width="12"/>
+    <text x="170" y="90" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="white">PACEÑA</text>
+    <text x="170" y="120" font-family="Arial, sans-serif" font-size="20" fill="white">TECH SOLUTIONS</text>
+</svg>

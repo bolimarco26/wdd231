@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+
+    .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        flex-wrap: nowrap;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        margin: 0 0 0 auto;
+    }
+
+    nav a {
+        padding: 0.75rem 0.8rem;
+    }
+
+    #theme-button {
+        margin-left: 1rem;
+    }
+
+    .member-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        gap: 2rem;
+        align-items: start;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .member-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    .member-card {
+        min-height: 420px;
+    }
+}

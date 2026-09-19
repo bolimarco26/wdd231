@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+    <rect width="400" height="200" rx="20" fill="#2d6a4f"/>
+    <path d="M50 140 L120 60 L190 140 Z" fill="white"/>
+    <path d="M105 140 L170 75 L235 140 Z" fill="#d8f3dc"/>
+    <text x="210" y="90" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="white">ILLIMANI</text>
+    <text x="210" y="120" font-family="Arial, sans-serif" font-size="20" fill="white">TRAVEL</text>
+</svg>

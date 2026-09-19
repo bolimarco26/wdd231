@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Paz Chamber of Commerce | Business Directory</title>
+    <meta name="description"
+        content="Explore businesses and organizations that are members of the La Paz Chamber of Commerce.">
+    <meta name="author" content="Marco Pérez">
+
+    <link rel="icon" href="images/logo.svg">
+
+    <meta property="og:title" content="La Paz Chamber of Commerce | Business Directory">
+    <meta property="og:description"
+        content="Explore local businesses and organizations in the La Paz Chamber of Commerce directory.">
+    <meta property="og:image" content="https://bolimarco26.github.io/wdd231/chamber/images/chamber.jpg">
+    <meta property="og:url" content="https://bolimarco26.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.svg" alt="La Paz Chamber of Commerce logo">
+                <span>La Paz Chamber of Commerce</span>
+            </a>
+
+            <button id="menu-button" aria-label="Open navigation menu">☰</button>
+
+            <nav id="main-nav">
+                <a href="index.html">Home</a>
+                <a href="#">Discover</a>
+                <a href="directory.html" class="active">Business Directory</a>
+                <a href="#">Join</a>
+                <a href="#">About</a>
+                <a href="#">Podcast</a>
+                <a href="#">Events</a>
+            </nav>
+
+            <button id="theme-button" aria-label="Toggle dark mode">◐</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>Business Directory</h1>
+
+        <div class="view-buttons">
+            <button id="grid-button">Grid</button>
+            <button id="list-button">List</button>
+        </div>
+
+        <section id="members" class="member-grid">
+            <!-- Member cards will be loaded here with JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h2>La Paz Chamber of Commerce</h2>
+                <p>La Paz, Bolivia</p>
+                <p>Email: info@lapazchamber.org</p>
+                <p>Phone: +591 2 1234567</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+
+            <div class="footer-development">
+                <p>WDD 231 Class Project</p>
+                <p>Developed by Marco Pérez</p>
+                <p>&copy; <span id="current-year"></span> La Paz Chamber of Commerce</p>
+                <p>Last Modification: <span id="last-modified"></span></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="scripts/directory.js"></script>
+
+</body>
+
+
+</html>

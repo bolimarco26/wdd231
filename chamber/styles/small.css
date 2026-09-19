@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #222;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #1f4e5f;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-link img {
+    width: 50px;
+    height: 50px;
+}
+
+#menu-button,
+#theme-button {
+    margin-left: auto;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#theme-button {
+    margin-left: 0.5rem;
+}
+
+nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+nav.open {
+    display: flex;
+}
+
+nav a {
+    padding: 0.75rem;
+    color: white;
+    text-align: center;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #163b48;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.view-buttons button {
+    padding: 0.65rem 1.4rem;
+    border: 2px solid #1f4e5f;
+    border-radius: 6px;
+    background-color: white;
+    color: #1f4e5f;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.view-buttons button:hover {
+    background-color: #1f4e5f;
+    color: white;
+}
+
+.member-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.member-card {
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    padding: 1.25rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+.member-card img {
+    width: 180px;
+    height: 90px;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+}
+
+.member-card h2 {
+    color: #1f4e5f;
+    margin: 0 0 0.75rem;
+    font-size: 1.3rem;
+}
+
+.member-card p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.member-card a {
+    color: #1f4e5f;
+    font-weight: bold;
+}
+
+.member-card a:hover {
+    text-decoration: underline;
+}
+
+.membership {
+    font-weight: bold;
+    color: #1f4e5f;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #1f4e5f;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.social-links a {
+    color: white;
+}
+
+.footer-development {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding-top: 1rem;
+}
+
+
+.member-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.member-list .member-card {
+    display: block;
+    text-align: left;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.member-list .member-card img {
+    display: none;
+}
+
+.member-list .member-card h2 {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="90" fill="#1f4e5f"/>
+    <circle cx="100" cy="100" r="70" fill="white"/>
+    <path d="M55 130 L100 55 L145 130 Z" fill="#1f4e5f"/>
+    <path d="M78 130 V105 H122 V130" fill="white"/>
+    <text x="100" y="155" text-anchor="middle"
+          font-family="Arial, sans-serif"
+          font-size="18"
+          font-weight="bold"
+          fill="#1f4e5f">LA PAZ</text>
+</svg>

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Andean Coffee",
+        "address": "Calle Sagarnaga 123, La Paz, Bolivia",
+        "phone": "+591 2 245 6789",
+        "website": "https://www.andeancoffee.com",
+        "image": "andean-coffee.svg",
+        "membership": 3,
+        "description": "Local coffee shop offering Bolivian coffee and traditional products."
+    },
+    {
+        "name": "Paceña Tech Solutions",
+        "address": "Avenida Arce 456, La Paz, Bolivia",
+        "phone": "+591 2 212 3456",
+        "website": "https://www.pacenatech.com",
+        "image": "pacena-tech.svg",
+        "membership": 3,
+        "description": "Technology services and digital solutions for local businesses."
+    },
+    {
+        "name": "Illimani Travel",
+        "address": "Calle Comercio 789, La Paz, Bolivia",
+        "phone": "+591 2 277 1234",
+        "website": "https://www.illimanitravel.com",
+        "image": "illimani-travel.svg",
+        "membership": 2,
+        "description": "Travel agency specializing in tours around La Paz and Bolivia."
+    },
+    {
+        "name": "Altura Design Studio",
+        "address": "Calle Jaén 45, La Paz, Bolivia",
+        "phone": "+591 2 221 9876",
+        "website": "https://www.alturadesign.com",
+        "image": "altura-design.svg",
+        "membership": 1,
+        "description": "Creative design studio providing branding and visual communication services."
+    },
+    {
+        "name": "Bolivia Fresh Market",
+        "address": "Avenida Camacho 321, La Paz, Bolivia",
+        "phone": "+591 2 233 4567",
+        "website": "https://www.boliviafresh.com",
+        "image": "bolivia-fresh.svg",
+        "membership": 2,
+        "description": "Local market offering fresh products and groceries."
+    },
+    {
+        "name": "La Paz Business Center",
+        "address": "Avenida Mariscal Santa Cruz 654, La Paz, Bolivia",
+        "phone": "+591 2 240 1122",
+        "website": "https://www.lapazbusiness.com",
+        "image": "business-center.svg",
+        "membership": 3,
+        "description": "Business center providing offices and meeting spaces for entrepreneurs."
+    },
+    {
+        "name": "Sopocachi Fitness",
+        "address": "Avenida Sánchez Lima 210, La Paz, Bolivia",
+        "phone": "+591 2 244 7788",
+        "website": "https://www.sopocachifitness.com",
+        "image": "sopocachi-fitness.svg",
+        "membership": 1,
+        "description": "Fitness center offering training programs and wellness services."
+    }
+]

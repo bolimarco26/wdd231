@@ -202,3 +202,154 @@ footer h2 {
 .member-list .member-card h2 {
     margin-bottom: 0.5rem;
 }
+
+
+
+
+.hero {
+    position: relative;
+    margin: 0 -1rem 2rem;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hero-content h1 {
+    margin: 0 0 0.5rem;
+    font-size: 1.6rem;
+}
+
+.hero-content p {
+    margin: 0 0 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    background-color: #f4b942;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.cta-button:hover {
+    background-color: #ffd166;
+}
+
+
+.events-section,
+.weather-section,
+.spotlight-section {
+    background-color: white;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+}
+
+.events-section h2,
+.weather-section h2,
+.spotlight-section h2 {
+    color: #1f4e5f;
+    margin-top: 0;
+}
+
+
+.event-card {
+    border-left: 4px solid #1f4e5f;
+    padding-left: 1rem;
+}
+
+.event-card h3 {
+    margin-top: 0;
+}
+
+.event-card p {
+    line-height: 1.5;
+}
+
+
+#current-weather {
+    margin-bottom: 1rem;
+}
+
+#current-weather p,
+#forecast-container p {
+    margin: 0.5rem 0;
+}
+
+#weather-forecast {
+    border-top: 1px solid #d6d6d6;
+    padding-top: 1rem;
+}
+
+#weather-forecast h3 {
+    color: #1f4e5f;
+}
+
+
+#spotlight-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.spotlight-card {
+    background-color: #f5f5f5;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.spotlight-card img {
+    display: block;
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+}
+
+.spotlight-card h3 {
+    color: #1f4e5f;
+    margin: 0 0 0.75rem;
+}
+
+.spotlight-card p {
+    line-height: 1.5;
+}
+
+.spotlight-card a {
+    color: #1f4e5f;
+    font-weight: bold;
+}
+
+.spotlight-card a:hover {
+    text-decoration: underline;
+}
+
+
+main,
+.hero,
+.spotlight-card {
+    max-width: 100%;
+    box-sizing: border-box;
+}

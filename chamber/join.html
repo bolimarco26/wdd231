@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Paz Chamber of Commerce | Join</title>
+
+    <meta name="description"
+        content="Apply for membership in the La Paz Chamber of Commerce and discover the benefits available to local businesses and organizations.">
+
+    <meta name="author" content="Marco Pérez">
+
+    <link rel="icon" href="images/logo.svg">
+
+    <meta property="og:title" content="La Paz Chamber of Commerce | Join">
+    <meta property="og:description"
+        content="Apply for membership in the La Paz Chamber of Commerce and discover membership benefits.">
+    <meta property="og:image" content="https://bolimarco26.github.io/wdd231/chamber/images/logo.svg">
+    <meta property="og:url" content="https://bolimarco26.github.io/wdd231/chamber/join.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/join.css">
+
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.svg" alt="La Paz Chamber of Commerce logo">
+                <span>La Paz Chamber of Commerce</span>
+            </a>
+
+            <button id="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+            <nav id="main-nav">
+                <a href="index.html">Home</a>
+                <a href="#">Discover</a>
+                <a href="directory.html">Business Directory</a>
+                <a href="join.html" class="active">Join</a>
+                <a href="#">About</a>
+                <a href="#">Podcast</a>
+                <a href="#">Events</a>
+            </nav>
+
+            <button id="theme-button" aria-label="Toggle dark mode">
+                ◐
+            </button>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <h1>Join the La Paz Chamber of Commerce</h1>
+
+        <div class="join-container">
+
+            <section class="join-form-section">
+
+                <h2>Membership Application</h2>
+
+                <form action="thankyou.html" method="get">
+
+                    <label for="first-name">
+                        First Name
+                        <input type="text" id="first-name" name="firstName" title="Enter your first name"
+                            autocomplete="given-name" required>
+                    </label>
+
+                    <label for="last-name">
+                        Last Name
+                        <input type="text" id="last-name" name="lastName" title="Enter your last name"
+                            autocomplete="family-name" required>
+                    </label>
+
+                    <label for="organization-title">
+                        Organizational Title
+                        <input type="text" id="organization-title" name="organizationTitle"
+                            title="Enter your organizational title" autocomplete="organization-title"
+                            pattern="[A-Za-zÀ-ÿ\- ]{7,}">
+                    </label>
+
+                    <label for="email">
+                        Email
+                        <input type="email" id="email" name="email" title="Enter your email address"
+                            autocomplete="email" placeholder="example@email.com" required>
+                    </label>
+
+                    <label for="phone">
+                        Mobile Phone
+                        <input type="tel" id="phone" name="phone" title="Enter your mobile phone number"
+                            autocomplete="tel" required>
+                    </label>
+
+                    <label for="organization">
+                        Organization
+                        <input type="text" id="organization" name="organization"
+                            title="Enter your business or organization name" autocomplete="organization" required>
+                    </label>
+
+                    <label for="description">
+                        Business/Organization Description
+                        <textarea id="description" name="description" title="Describe your business or organization"
+                            rows="5"></textarea>
+                    </label>
+
+                    <fieldset>
+
+                        <legend>Membership Level</legend>
+
+                        <label>
+                            <input type="radio" name="membership" value="np" required>
+                            NP Membership - Free
+                        </label>
+
+                        <label>
+                            <input type="radio" name="membership" value="bronze">
+                            Bronze Membership
+                        </label>
+
+                        <label>
+                            <input type="radio" name="membership" value="silver">
+                            Silver Membership
+                        </label>
+
+                        <label>
+                            <input type="radio" name="membership" value="gold">
+                            Gold Membership
+                        </label>
+
+                    </fieldset>
+
+                    <input type="hidden" id="timestamp" name="timestamp">
+
+                    <input type="submit" value="Apply for Membership">
+
+                </form>
+
+            </section>
+
+            <section class="membership-levels">
+
+                <section class="membership-levels">
+
+                    <h2>Membership Levels</h2>
+
+                    <article class="membership-card">
+                        <h3>NP Membership</h3>
+                        <p>For non-profit organizations.</p>
+                        <button type="button" data-modal="np-modal">
+                            Learn More
+                        </button>
+                    </article>
+
+                    <article class="membership-card">
+                        <h3>Bronze Membership</h3>
+                        <p>For businesses looking for essential chamber benefits.</p>
+                        <button type="button" data-modal="bronze-modal">
+                            Learn More
+                        </button>
+                    </article>
+
+                    <article class="membership-card">
+                        <h3>Silver Membership</h3>
+                        <p>For businesses seeking additional visibility and networking opportunities.</p>
+                        <button type="button" data-modal="silver-modal">
+                            Learn More
+                        </button>
+                    </article>
+
+                    <article class="membership-card">
+                        <h3>Gold Membership</h3>
+                        <p>For businesses looking for premium promotional and networking benefits.</p>
+                        <button type="button" data-modal="gold-modal">
+                            Learn More
+                        </button>
+                    </article>
+
+                </section>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <dialog id="np-modal" class="membership-modal">
+
+        <button class="close-modal" type="button" aria-label="Close NP Membership information">
+            &times;
+        </button>
+
+        <h2>NP Membership</h2>
+
+        <h3>Benefits include:</h3>
+
+        <ul>
+            <li>Business directory listing</li>
+            <li>Networking opportunities</li>
+            <li>Chamber newsletter</li>
+            <li>Access to community events</li>
+        </ul>
+
+        <p><strong>Cost:</strong> Free</p>
+
+    </dialog>
+
+
+    <dialog id="bronze-modal" class="membership-modal">
+
+        <button class="close-modal" type="button" aria-label="Close Bronze Membership information">
+            &times;
+        </button>
+
+        <h2>Bronze Membership</h2>
+
+        <h3>Benefits include:</h3>
+
+        <ul>
+            <li>Business directory listing</li>
+            <li>Networking opportunities</li>
+            <li>Chamber newsletter</li>
+            <li>Training opportunities</li>
+            <li>Discounts on selected events</li>
+        </ul>
+
+        <p><strong>Cost:</strong> $10 annual</p>
+
+    </dialog>
+
+
+    <dialog id="silver-modal" class="membership-modal">
+
+        <button class="close-modal" type="button" aria-label="Close Silver Membership information">
+            &times;
+        </button>
+
+        <h2>Silver Membership</h2>
+
+        <h3>Benefits include:</h3>
+
+        <ul>
+            <li>All Bronze Membership benefits</li>
+            <li>Special event invitations</li>
+            <li>Additional business promotion</li>
+            <li>Training opportunities</li>
+            <li>Event discounts</li>
+            <li>Social media promotion</li>
+        </ul>
+
+        <p><strong>Cost:</strong> $20 annual</p>
+
+    </dialog>
+
+
+    <dialog id="gold-modal" class="membership-modal">
+
+        <button class="close-modal" type="button" aria-label="Close Gold Membership information">
+            &times;
+        </button>
+
+        <h2>Gold Membership</h2>
+
+        <h3>Benefits include:</h3>
+
+        <ul>
+            <li>All Silver Membership benefits</li>
+            <li>Home page spotlight</li>
+            <li>Special event invitations</li>
+            <li>Premium advertising opportunities</li>
+            <li>Discount tickets to chamber events</li>
+            <li>Business recognition plaque</li>
+        </ul>
+
+        <p><strong>Cost:</strong> $30 annual</p>
+
+    </dialog>
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-contact">
+
+                <h2>La Paz Chamber of Commerce</h2>
+
+                <p>La Paz, Bolivia</p>
+
+                <p>Email: info@lapazchamber.org</p>
+
+                <p>Phone: +591 2 1234567</p>
+
+            </div>
+
+
+            <div class="social-links">
+
+                <a href="#" aria-label="Facebook">Facebook</a>
+
+                <a href="#" aria-label="Instagram">Instagram</a>
+
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+
+            </div>
+
+
+            <div class="footer-development">
+
+                <p>WDD 231 Class Project</p>
+
+                <p>Developed by Marco Pérez</p>
+
+                <p>
+                    &copy;
+                    <span id="current-year"></span>
+                    La Paz Chamber of Commerce
+                </p>
+
+                <p>
+                    Last Modification:
+                    <span id="last-modified"></span>
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

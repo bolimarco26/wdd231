@@ -150,3 +150,277 @@ footer img {
     width: 30px;
     margin: 0.5rem;
 }
+
+
+
+
+dialog {
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 3rem #777;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+dialog h2 {
+    background-color: #1f4e79;
+    color: white;
+    margin: -1rem -1rem 1rem -1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+dialog h3 {
+    margin-top: 0;
+}
+
+dialog p {
+    padding: 0;
+    margin: 0.75rem 0;
+}
+
+dialog button {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    background-color: white;
+    cursor: pointer;
+}
+
+dialog button:hover {
+    background-color: #eee;
+}
+
+
+.join-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.join-form-section,
+.membership-levels {
+    width: 100%;
+}
+
+.join-form-section h2,
+.membership-levels h2 {
+    margin-bottom: 1.5rem;
+}
+
+.join-form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+}
+
+.join-form-section label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-weight: 600;
+}
+
+.join-form-section input[type="text"],
+.join-form-section input[type="email"],
+.join-form-section input[type="tel"],
+.join-form-section textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.join-form-section textarea {
+    resize: vertical;
+}
+
+.join-form-section fieldset {
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.join-form-section legend {
+    font-weight: 700;
+    padding: 0 0.5rem;
+}
+
+.join-form-section fieldset label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.6rem 0;
+    font-weight: 400;
+}
+
+.join-form-section fieldset input[type="radio"] {
+    width: auto;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.join-form-section input[type="submit"] {
+    width: fit-content;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #1f4e5f;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.membership-levels {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.membership-card {
+    padding: 1.5rem;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+
+    animation: membershipEntry 0.8s ease-out both;
+}
+
+.membership-card:nth-of-type(2) {
+    animation-delay: 0.15s;
+}
+
+.membership-card:nth-of-type(3) {
+    animation-delay: 0.3s;
+}
+
+.membership-card:nth-of-type(4) {
+    animation-delay: 0.45s;
+}
+
+.membership-card h3 {
+    margin-top: 0;
+}
+
+.membership-card button {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #1f4e5f;
+    color: white;
+    cursor: pointer;
+}
+
+
+.membership-modal {
+    width: min(85%, 420px);
+    max-height: 80vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+
+    padding: 1.25rem;
+
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.membership-modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.membership-modal h2 {
+    margin-top: 0;
+    margin-right: 3rem;
+    font-size: 1.6rem;
+}
+
+.membership-modal h3 {
+    font-size: 1.1rem;
+}
+
+.membership-modal ul {
+    padding-left: 1.5rem;
+}
+
+.membership-modal li {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.membership-modal p {
+    font-size: 1rem;
+}
+
+.close-modal {
+    float: right;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    border: 1px solid #777;
+    border-radius: 4px;
+
+    background-color: white;
+
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.membership-modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.membership-modal h2 {
+    margin-top: 0;
+}
+
+.close-modal {
+    float: right;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #777;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.membership-modal li {
+    margin-bottom: 0.5rem;
+}
+
+
+
+@keyframes membershipEntry {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

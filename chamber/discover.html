@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Discover La Paz | La Paz Chamber of Commerce</title>
+    <meta name="description"
+        content="Discover attractions, landmarks, and places of interest in La Paz, Bolivia, with the La Paz Chamber of Commerce.">
+    <meta name="author" content="Marco Pérez">
+
+    <link rel="icon" href="images/logo.svg">
+
+    <meta property="og:title" content="Discover La Paz | La Paz Chamber of Commerce">
+    <meta property="og:description" content="Explore the landmarks and places of interest in La Paz, Bolivia.">
+    <meta property="og:image" content="https://bolimarco26.github.io/wdd231/chamber/images/logo.svg">
+    <meta property="og:url" content="https://bolimarco26.github.io/wdd231/chamber/discover.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover.css">
+
+    <script type="module" src="scripts/discover.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.svg" alt="La Paz Chamber of Commerce logo">
+                <span>La Paz Chamber of Commerce</span>
+            </a>
+
+            <button id="menu-button" aria-label="Open navigation menu">☰</button>
+
+            <nav id="main-nav">
+                <a href="index.html">Home</a>
+                <a href="discover.html" class="active" aria-current="page">Discover</a>
+                <a href="directory.html">Business Directory</a>
+                <a href="join.html">Join</a>
+                <a href="#">About</a>
+                <a href="#">Podcast</a>
+                <a href="#">Events</a>
+            </nav>
+
+            <button id="theme-button" aria-label="Toggle dark mode">◐</button>
+        </div>
+    </header>
+
+    <main class="discover-main">
+        <h1>Discover La Paz</h1>
+
+        <section class="visit-message" aria-live="polite" aria-atomic="true">
+            <p id="visit-message">Discover the amazing places of La Paz, Bolivia!</p>
+        </section>
+
+        <section class="discover-grid" id="discover-grid" aria-label="Places of interest in La Paz">
+            <!-- The eight place cards will be generated from discover.mjs. -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h2>La Paz Chamber of Commerce</h2>
+                <p>La Paz, Bolivia</p>
+                <p>Email: info@lapazchamber.org</p>
+                <p>Phone: +591 2 1234567</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+
+            <div class="footer-development">
+                <p>WDD 231 Class Project</p>
+                <p>Developed by Marco Pérez</p>
+                <p>&copy; <span id="current-year"></span> La Paz Chamber of Commerce</p>
+                <p>Last Modification: <span id="last-modified"></span></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

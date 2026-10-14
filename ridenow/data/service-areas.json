@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Plaza Murillo",
+        "city": "La Paz",
+        "category": "Downtown",
+        "description": "A central location near government buildings.",
+        "pickupPoint": "Main square entrance"
+    },
+    {
+        "id": 2,
+        "name": "San Francisco",
+        "city": "La Paz",
+        "category": "Downtown",
+        "description": "A busy area with shops and public transportation.",
+        "pickupPoint": "Near the main church"
+    },
+    {
+        "id": 3,
+        "name": "Sopocachi",
+        "city": "La Paz",
+        "category": "Residential",
+        "description": "A neighborhood with restaurants and apartments.",
+        "pickupPoint": "Plaza Abaroa"
+    },
+    {
+        "id": 4,
+        "name": "Miraflores",
+        "city": "La Paz",
+        "category": "Residential",
+        "description": "An area with homes, shops and medical centers.",
+        "pickupPoint": "Near the stadium"
+    },
+    {
+        "id": 5,
+        "name": "Zona Sur",
+        "city": "La Paz",
+        "category": "Residential",
+        "description": "A southern area with shops and residential streets.",
+        "pickupPoint": "San Miguel"
+    },
+    {
+        "id": 6,
+        "name": "Obrajes",
+        "city": "La Paz",
+        "category": "Residential",
+        "description": "A neighborhood connected to the southern part of the city.",
+        "pickupPoint": "Obrajes cable car station"
+    },
+    {
+        "id": 7,
+        "name": "Calacoto",
+        "city": "La Paz",
+        "category": "Commercial",
+        "description": "An area with offices, restaurants and businesses.",
+        "pickupPoint": "Main avenue"
+    },
+    {
+        "id": 8,
+        "name": "Achumani",
+        "city": "La Paz",
+        "category": "Residential",
+        "description": "A residential area in the southern part of La Paz.",
+        "pickupPoint": "Local shopping area"
+    },
+    {
+        "id": 9,
+        "name": "El Prado",
+        "city": "La Paz",
+        "category": "Commercial",
+        "description": "A central avenue with offices and shops.",
+        "pickupPoint": "Near the central avenue"
+    },
+    {
+        "id": 10,
+        "name": "Cementerio General",
+        "city": "La Paz",
+        "category": "Downtown",
+        "description": "A well-known area in the western part of La Paz.",
+        "pickupPoint": "Main entrance"
+    },
+    {
+        "id": 11,
+        "name": "Ceja",
+        "city": "El Alto",
+        "category": "Commercial",
+        "description": "A busy commercial and transportation area.",
+        "pickupPoint": "Near the main avenue"
+    },
+    {
+        "id": 12,
+        "name": "Ciudad Satélite",
+        "city": "El Alto",
+        "category": "Residential",
+        "description": "A residential area with shops and local services.",
+        "pickupPoint": "Main neighborhood square"
+    },
+    {
+        "id": 13,
+        "name": "Río Seco",
+        "city": "El Alto",
+        "category": "Commercial",
+        "description": "An area with markets and transport connections.",
+        "pickupPoint": "Near the local market"
+    },
+    {
+        "id": 14,
+        "name": "Villa Adela",
+        "city": "El Alto",
+        "category": "Residential",
+        "description": "A neighborhood with homes and local businesses.",
+        "pickupPoint": "Main avenue"
+    },
+    {
+        "id": 15,
+        "name": "16 de Julio",
+        "city": "El Alto",
+        "category": "Commercial",
+        "description": "A popular area known for its large street market.",
+        "pickupPoint": "Near the market entrance"
+    }
+]

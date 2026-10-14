@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan a ride with RideNow Bolivia in La Paz and El Alto.">
+    <meta name="author" content="Marco Perez">
+    <title>Request a Ride | RideNow Bolivia</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="module" src="scripts/script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>RideNow Bolivia</h1>
+
+        <button type="button" id="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+            ☰ Menu
+        </button>
+
+        <nav id="main-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="areas.html">Service Areas</a>
+            <a href="request.html">Request a Ride</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <h2>Request a Ride</h2>
+        <p>Complete the form to plan your next trip.</p>
+
+        <form action="thankyou.html" method="get">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="pickup">Pickup Location</label>
+            <input type="text" id="pickup" name="pickup" required>
+
+            <label for="destination">Destination</label>
+            <input type="text" id="destination" name="destination" required>
+
+            <label for="date">Travel Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="passengers">Number of Passengers</label>
+            <select id="passengers" name="passengers" required>
+                <option value="">Select passengers</option>
+                <option value="1">1 passenger</option>
+                <option value="2">2 passengers</option>
+                <option value="3">3 passengers</option>
+                <option value="4">4 passengers</option>
+            </select>
+
+            <label for="trip-type">Trip Type</label>
+            <select id="trip-type" name="tripType" required>
+                <option value="">Select trip type</option>
+                <option value="One-way">One-way</option>
+                <option value="Round-trip">Round-trip</option>
+            </select>
+
+
+            <button type="submit">Plan My Ride</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RideNow Bolivia</p>
+        <p><a href="attributions.html">Attributions</a></p>
+        <p>
+            <a href="#" id="video-link">Video Demonstration (Coming Soon)</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

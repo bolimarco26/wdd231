@@ -1,0 +1,182 @@
+[
+  {
+    "id": "sopocachi",
+    "name": "Sopocachi",
+    "city": "La Paz",
+    "category": "Residential & dining",
+    "description": "A lively central neighborhood with cafés, restaurants and residential streets.",
+    "pickupPoint": "Plaza Abaroa",
+    "serviceHours": "06:00–23:00",
+    "estimatedMinutes": 12
+  },
+  {
+    "id": "san-miguel",
+    "name": "San Miguel",
+    "city": "La Paz",
+    "category": "Shopping & dining",
+    "description": "A popular southern district with shops, restaurants and offices.",
+    "pickupPoint": "San Miguel central area",
+    "serviceHours": "06:00–23:00",
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "zona-sur",
+    "name": "Zona Sur",
+    "city": "La Paz",
+    "category": "Residential",
+    "description": "Residential neighborhoods and business areas in southern La Paz.",
+    "pickupPoint": "Calacoto main avenue",
+    "serviceHours": "06:00–23:00",
+    "estimatedMinutes": 22
+  },
+  {
+    "id": "centro",
+    "name": "Centro de La Paz",
+    "city": "La Paz",
+    "category": "Business & culture",
+    "description": "A busy central area close to offices, shops, plazas and public services.",
+    "pickupPoint": "Plaza del Estudiante",
+    "serviceHours": "06:00–23:00",
+    "estimatedMinutes": 10
+  },
+  {
+    "id": "terminal-buses",
+    "name": "Terminal de Buses",
+    "city": "La Paz",
+    "category": "Transport hub",
+    "description": "A convenient pickup point for intercity bus arrivals and departures.",
+    "pickupPoint": "Main passenger entrance",
+    "serviceHours": "05:00–23:30",
+    "estimatedMinutes": 15
+  },
+  {
+    "id": "aeropuerto-el-alto",
+    "name": "Aeropuerto Internacional El Alto",
+    "city": "El Alto",
+    "category": "Airport",
+    "description": "Plan a pickup or drop-off near the main airport terminal.",
+    "pickupPoint": "Designated public pickup area",
+    "serviceHours": "By prior coordination",
+    "estimatedMinutes": 30
+  },
+  {
+    "id": "ciudad-satelite",
+    "name": "Ciudad Satélite",
+    "city": "El Alto",
+    "category": "Residential",
+    "description": "A well-known residential area with access to important city routes.",
+    "pickupPoint": "Plaza del Tinku",
+    "serviceHours": "06:00–22:00",
+    "estimatedMinutes": 20
+  },
+  {
+    "id": "rio-seco",
+    "name": "Río Seco",
+    "city": "El Alto",
+    "category": "Commercial",
+    "description": "A commercial and transport area in the northern part of El Alto.",
+    "pickupPoint": "Main market area",
+    "serviceHours": "06:00–22:00",
+    "estimatedMinutes": 25
+  },
+  {
+    "id": "villa-adela",
+    "name": "Villa Adela",
+    "city": "El Alto",
+    "category": "Residential & commercial",
+    "description": "A busy neighborhood with residential streets and local commerce.",
+    "pickupPoint": "Main avenue",
+    "serviceHours": "06:00–22:00",
+    "estimatedMinutes": 25
+  },
+  {
+    "id": "miraflores",
+    "name": "Miraflores",
+    "city": "La Paz",
+    "category": "Residential & health",
+    "description": "A central neighborhood with clinics, parks, sports venues and cafés.",
+    "pickupPoint": "Estadio Hernando Siles area",
+    "serviceHours": "06:00–23:00",
+    "estimatedMinutes": 14
+  },
+  {
+    "id": "calacoto",
+    "name": "Calacoto",
+    "city": "La Paz",
+    "category": "Business & dining",
+    "description": "A southern business and dining district with offices and restaurants.",
+    "pickupPoint": "Calacoto main avenue",
+    "serviceHours": "06:00–23:00",
+    "estimatedMinutes": 22
+  },
+  {
+    "id": "achumani",
+    "name": "Achumani",
+    "city": "La Paz",
+    "category": "Residential",
+    "description": "A southern residential area popular with families and local businesses.",
+    "pickupPoint": "Achumani main avenue",
+    "serviceHours": "06:00–22:00",
+    "estimatedMinutes": 28
+  },
+  {
+    "id": "mallasa",
+    "name": "Mallasa",
+    "city": "La Paz",
+    "category": "Outdoors & leisure",
+    "description": "A southern area near parks and outdoor attractions.",
+    "pickupPoint": "Mallasa central area",
+    "serviceHours": "07:00–21:00",
+    "estimatedMinutes": 35
+  },
+  {
+    "id": "villa-fatima",
+    "name": "Villa Fátima",
+    "city": "La Paz",
+    "category": "Commercial & transport",
+    "description": "An important access point toward the Yungas route and local markets.",
+    "pickupPoint": "Main avenue",
+    "serviceHours": "06:00–22:00",
+    "estimatedMinutes": 18
+  },
+  {
+    "id": "san-pedro",
+    "name": "San Pedro",
+    "city": "La Paz",
+    "category": "Central neighborhood",
+    "description": "A central neighborhood with markets, services and local businesses.",
+    "pickupPoint": "Plaza San Pedro",
+    "serviceHours": "06:00–22:00",
+    "estimatedMinutes": 12
+  },
+  {
+    "id": "achocalla",
+    "name": "Achocalla",
+    "city": "La Paz",
+    "category": "Outskirts",
+    "description": "A growing area outside the urban center; trips should be coordinated in advance.",
+    "pickupPoint": "Main plaza",
+    "serviceHours": "By prior coordination",
+    "estimatedMinutes": 40
+  },
+  {
+    "id": "ceja",
+    "name": "La Ceja",
+    "city": "El Alto",
+    "category": "Commercial & transport",
+    "description": "One of El Alto's busiest commercial and transport hubs.",
+    "pickupPoint": "Main plaza area",
+    "serviceHours": "06:00–22:00",
+    "estimatedMinutes": 22
+  },
+  {
+    "id": "villa-copacabana",
+    "name": "Villa Copacabana",
+    "city": "La Paz",
+    "category": "Residential",
+    "description": "A residential neighborhood connected to central La Paz by major roads.",
+    "pickupPoint": "Neighborhood central avenue",
+    "serviceHours": "06:00–22:00",
+    "estimatedMinutes": 20
+  }
+]
